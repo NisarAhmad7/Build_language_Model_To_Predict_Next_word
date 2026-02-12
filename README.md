@@ -1,15 +1,15 @@
 
 
-Language_Model_Predict_Next_Word: 
+## Language_Model_Predict_Next_Word: 
 
-#Project Overview
+# Project Overview
 
 This project implements a statistical language model that predicts the next word given the previous two words, using a Trigram-based probabilistic approach.
 The model is trained on the Reuters corpus from NLTK and estimates conditional probabilities using maximum likelihood estimation (MLE).
 
 The goal of this project is to demonstrate how classic n-gram language models work internally, including data preprocessing, probability estimation, and inference.
 
-## Problem Statement
+# Problem Statement
 
 Natural language prediction is a core task in NLP, commonly used in:
 
@@ -25,7 +25,7 @@ Natural language prediction is a core task in NLP, commonly used in:
 
     - Given two consecutive words (w₁, w₂), predict the most likely next word (w₃).
 
-## Solution Approach
+# Solution Approach
 
 I model this problem using a Trigram Language Model, based on the Markov assumption:
 
@@ -39,7 +39,7 @@ Why Trigrams?
 
     Good baseline before neural language models
 
-## Dataset
+# Dataset
 
     Source: Reuters Corpus (NLTK)
 
@@ -53,7 +53,7 @@ Why Trigrams?
 
     Trigram extraction from tokenized sentences
 
-## Model Construction
+# Model Construction
 Step 1: Trigram Counting
 
     For each sentence in the dataset:
@@ -77,7 +77,7 @@ Step 2: Probability Estimation
 
     This ensures that the probabilities of all possible next words sum to 1 for a given context.
 
-## Example Usage
+# Example Usage
 
 Once trained, the model can be queried with a word pair to retrieve a probability distribution over possible next words:
 
@@ -93,7 +93,7 @@ This returns all candidate third words along with their estimated probabilities.
     ├── README.md            
     └── requirements.txt      
 
-## Technologies Used
+# Technologies Used
 
     Python
 
@@ -105,7 +105,7 @@ This returns all candidate third words along with their estimated probabilities.
 
     Probabilistic Modeling (MLE)
 
-## Limitations
+# Limitations
 
 This project intentionally uses a simple statistical approach, which has known limitations:
 
@@ -119,7 +119,7 @@ This project intentionally uses a simple statistical approach, which has known l
 
     These limitations are typical of classic n-gram models and motivate the use of neural language models in modern systems.
 
-## Future Improvements
+# Future Improvements
 
 Possible extensions to make the system more robust:
 
@@ -133,7 +133,7 @@ Possible extensions to make the system more robust:
 
 Compare performance with neural language models (RNNs / Transformers)
 
-## Key Takeaways
+# Key Takeaways
 
 This project demonstrates:
 
