@@ -2,7 +2,7 @@
 
 Language_Model_Predict_Next_Word: 
 
-# Project Overview
+#Project Overview
 
 This project implements a statistical language model that predicts the next word given the previous two words, using a Trigram-based probabilistic approach.
 The model is trained on the Reuters corpus from NLTK and estimates conditional probabilities using maximum likelihood estimation (MLE).
