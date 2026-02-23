@@ -86,7 +86,7 @@ Once trained, the model can be queried with a word pair to retrieve a probabilit
 
 This returns all candidate third words along with their estimated probabilities.
 
-#Project Structure
+# Project Structure
     Language_Model_Predict_Next_Word/
     │
     ├── language_model.py    
