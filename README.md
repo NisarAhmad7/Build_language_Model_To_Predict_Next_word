@@ -105,34 +105,6 @@ This returns all candidate third words along with their estimated probabilities.
 
     Probabilistic Modeling (MLE)
 
-# Limitations
-
-This project intentionally uses a simple statistical approach, which has known limitations:
-
-    Suffers from data sparsity
-
-    Cannot generalize to unseen word combinations
-
-    No smoothing applied (e.g. Laplace, Kneser-Ney)
-
-    Limited context window (only two previous words)
-
-    These limitations are typical of classic n-gram models and motivate the use of neural language models in modern systems.
-
-# Future Improvements
-
-Possible extensions to make the system more robust:
-
-    Add smoothing techniques to handle unseen trigrams
-
-    Support variable n-gram sizes
-
-    Optimize memory usage
-
-    Add sentence generation functionality
-
-Compare performance with neural language models (RNNs / Transformers)
-
 # Key Takeaways
 
 This project demonstrates:
